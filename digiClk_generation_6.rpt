@@ -1,0 +1,151 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:/altera/13.0sp1/digital_clk/ --output-directory=C:/altera/13.0sp1/digital_clk/digiClk/ --report-file=bsf:C:/altera/13.0sp1/digital_clk/digiClk.bsf --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C20F484C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/altera/13.0sp1/digital_clk/digiClk.qsys
+Progress: Loading digital_clk/digiClk.qsys
+Progress: Reading input file
+Progress: Adding CLK_50 [clock_source 13.0]
+Progress: Parameterizing module CLK_50
+Progress: Adding PLL [altera_up_clocks 13.0]
+Progress: Parameterizing module PLL
+Progress: Adding CPU [altera_nios2_qsys 13.0]
+Progress: Parameterizing module CPU
+Progress: Adding SDRAM_CONTROLER [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module SDRAM_CONTROLER
+Progress: Adding SYS_ID [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module SYS_ID
+Progress: Adding timer_0 [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module timer_0
+Progress: Adding LED_GREEN [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module LED_GREEN
+Progress: Adding LED_RED [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module LED_RED
+Progress: Adding KEY [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module KEY
+Progress: Adding SWITCHES [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module SWITCHES
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding 7_SEG_CONTROLLER [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module 7_SEG_CONTROLLER
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: digiClk.SYS_ID: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: digiClk.SYS_ID: Time stamp will be automatically updated when this component is generated.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:/altera/13.0sp1/digital_clk/ --output-directory=C:/altera/13.0sp1/digital_clk/digiClk/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:C:/altera/13.0sp1/digital_clk/digiClk.sopcinfo --report-file=html:C:/altera/13.0sp1/digital_clk/digiClk.html --report-file=qip:C:/altera/13.0sp1/digital_clk/digiClk/synthesis/digiClk.qip --report-file=cmp:C:/altera/13.0sp1/digital_clk/digiClk.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C20F484C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/altera/13.0sp1/digital_clk/digiClk.qsys --language=VHDL
+Progress: Loading digital_clk/digiClk.qsys
+Progress: Reading input file
+Progress: Adding CLK_50 [clock_source 13.0]
+Progress: Parameterizing module CLK_50
+Progress: Adding PLL [altera_up_clocks 13.0]
+Progress: Parameterizing module PLL
+Progress: Adding CPU [altera_nios2_qsys 13.0]
+Progress: Parameterizing module CPU
+Progress: Adding SDRAM_CONTROLER [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module SDRAM_CONTROLER
+Progress: Adding SYS_ID [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module SYS_ID
+Progress: Adding timer_0 [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module timer_0
+Progress: Adding LED_GREEN [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module LED_GREEN
+Progress: Adding LED_RED [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module LED_RED
+Progress: Adding KEY [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module KEY
+Progress: Adding SWITCHES [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module SWITCHES
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding 7_SEG_CONTROLLER [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module 7_SEG_CONTROLLER
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: digiClk.SYS_ID: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: digiClk.SYS_ID: Time stamp will be automatically updated when this component is generated.
+Info: digiClk: Generating digiClk "digiClk" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 12 modules, 39 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 24 modules, 75 connections
+Info: merlin_domain_transform: After transform: 48 modules, 199 connections
+Info: merlin_router_transform: After transform: 60 modules, 235 connections
+Info: merlin_burst_transform: After transform: 61 modules, 238 connections
+Info: reset_adaptation_transform: After transform: 62 modules, 240 connections
+Info: merlin_network_to_switch_transform: After transform: 85 modules, 290 connections
+Info: merlin_width_transform: After transform: 87 modules, 296 connections
+Info: merlin_mm_transform: After transform: 87 modules, 296 connections
+Info: merlin_interrupt_mapper_transform: After transform: 88 modules, 299 connections
+Info: PLL: Starting Generation of Required Clocks for DE-Series Boards
+Info: PLL: "digiClk" instantiated altera_up_clocks "PLL"
+Info: CPU: Starting RTL generation for module 'digiClk_CPU'
+Info: CPU:   Generation command is [exec C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=digiClk_CPU --dir=C:/Users/INPT/AppData/Local/Temp/alt9658_6849997993368637636.dir/0033_CPU_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/INPT/AppData/Local/Temp/alt9658_6849997993368637636.dir/0033_CPU_gen//digiClk_CPU_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: CPU: # 2023.10.28 15:55:03 (*) Starting Nios II generation
+Info: CPU: # 2023.10.28 15:55:03 (*)   Checking for plaintext license.
+Info: CPU: # 2023.10.28 15:55:04 (*)   Couldn't query license setup in Quartus directory C:/altera/13.0sp1/quartus
+Info: CPU: # 2023.10.28 15:55:04 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: CPU: # 2023.10.28 15:55:04 (*)   Plaintext license not found.
+Info: CPU: # 2023.10.28 15:55:04 (*)   No license required to generate encrypted Nios II/e.
+Info: CPU: # 2023.10.28 15:55:04 (*)   Elaborating CPU configuration settings
+Info: CPU: # 2023.10.28 15:55:04 (*)   Creating all objects for CPU
+Info: CPU: # 2023.10.28 15:55:05 (*)   Generating RTL from CPU objects
+Info: CPU: # 2023.10.28 15:55:05 (*)   Creating plain-text RTL
+Info: CPU: # 2023.10.28 15:55:07 (*) Done Nios II generation
+Info: CPU: Done RTL generation for module 'digiClk_CPU'
+Info: CPU: "digiClk" instantiated altera_nios2_qsys "CPU"
+Info: SDRAM_CONTROLER: Starting RTL generation for module 'digiClk_SDRAM_CONTROLER'
+Info: SDRAM_CONTROLER:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=digiClk_SDRAM_CONTROLER --dir=C:/Users/INPT/AppData/Local/Temp/alt9658_6849997993368637636.dir/0034_SDRAM_CONTROLER_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/INPT/AppData/Local/Temp/alt9658_6849997993368637636.dir/0034_SDRAM_CONTROLER_gen//digiClk_SDRAM_CONTROLER_component_configuration.pl  --do_build_sim=0  ]
+Info: SDRAM_CONTROLER: Done RTL generation for module 'digiClk_SDRAM_CONTROLER'
+Info: SDRAM_CONTROLER: "digiClk" instantiated altera_avalon_new_sdram_controller "SDRAM_CONTROLER"
+Info: SYS_ID: "digiClk" instantiated altera_avalon_sysid_qsys "SYS_ID"
+Info: timer_0: Starting RTL generation for module 'digiClk_timer_0'
+Info: timer_0:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=digiClk_timer_0 --dir=C:/Users/INPT/AppData/Local/Temp/alt9658_6849997993368637636.dir/0036_timer_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/INPT/AppData/Local/Temp/alt9658_6849997993368637636.dir/0036_timer_0_gen//digiClk_timer_0_component_configuration.pl  --do_build_sim=0  ]
+Info: timer_0: Done RTL generation for module 'digiClk_timer_0'
+Info: timer_0: "digiClk" instantiated altera_avalon_timer "timer_0"
+Info: LED_GREEN: Starting Generation of Parallel Port
+Info: LED_GREEN: "digiClk" instantiated altera_up_avalon_parallel_port "LED_GREEN"
+Info: LED_RED: Starting Generation of Parallel Port
+Info: LED_RED: "digiClk" instantiated altera_up_avalon_parallel_port "LED_RED"
+Info: KEY: Starting Generation of Parallel Port
+Info: KEY: "digiClk" instantiated altera_up_avalon_parallel_port "KEY"
+Info: SWITCHES: Starting Generation of Parallel Port
+Info: SWITCHES: "digiClk" instantiated altera_up_avalon_parallel_port "SWITCHES"
+Info: jtag_uart_0: Starting RTL generation for module 'digiClk_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=digiClk_jtag_uart_0 --dir=C:/Users/INPT/AppData/Local/Temp/alt9658_6849997993368637636.dir/0041_jtag_uart_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/INPT/AppData/Local/Temp/alt9658_6849997993368637636.dir/0041_jtag_uart_0_gen//digiClk_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'digiClk_jtag_uart_0'
+Info: jtag_uart_0: "digiClk" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: 7_SEG_CONTROLLER: Starting Generation of Parallel Port
+Info: 7_SEG_CONTROLLER: "digiClk" instantiated altera_up_avalon_parallel_port "7_SEG_CONTROLLER"
+Info: CPU_instruction_master_translator: "digiClk" instantiated altera_merlin_master_translator "CPU_instruction_master_translator"
+Info: CPU_jtag_debug_module_translator: "digiClk" instantiated altera_merlin_slave_translator "CPU_jtag_debug_module_translator"
+Info: CPU_instruction_master_translator_avalon_universal_master_0_agent: "digiClk" instantiated altera_merlin_master_agent "CPU_instruction_master_translator_avalon_universal_master_0_agent"
+Info: CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent: "digiClk" instantiated altera_merlin_slave_agent "CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "digiClk" instantiated altera_avalon_sc_fifo "CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "digiClk" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "digiClk" instantiated altera_merlin_router "addr_router_001"
+Info: id_router: "digiClk" instantiated altera_merlin_router "id_router"
+Info: id_router_001: "digiClk" instantiated altera_merlin_router "id_router_001"
+Info: id_router_003: "digiClk" instantiated altera_merlin_router "id_router_003"
+Info: burst_adapter: "digiClk" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: rst_controller: "digiClk" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "digiClk" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "digiClk" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: "digiClk" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux: "digiClk" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_003: "digiClk" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_003"
+Info: rsp_xbar_mux: "digiClk" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file C:/altera/13.0sp1/digital_clk/digiClk/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "digiClk" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file C:/altera/13.0sp1/digital_clk/digiClk/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: width_adapter: "digiClk" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file C:/altera/13.0sp1/digital_clk/digiClk/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/altera/13.0sp1/digital_clk/digiClk/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: irq_mapper: "digiClk" instantiated altera_irq_mapper "irq_mapper"
+Info: digiClk: Done digiClk" with 33 modules, 144 files, 3111865 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
