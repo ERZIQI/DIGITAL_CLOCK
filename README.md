@@ -25,4 +25,3 @@ dans le dossier software/montre se trouve le code en C, le fichier est nomé hel
 
 https://github.com/ERZIQI/DIGITAL_CLOCK/assets/129958857/5760bd06-d7e5-4933-b714-098149e210fe
 
-
